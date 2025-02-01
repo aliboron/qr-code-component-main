@@ -14,7 +14,7 @@
 
 .qrCodeLoc {
   width: 75%;
-  height: 450px;
+  max-width: 500px;
   margin: auto;
   padding: 1rem;
 
@@ -68,6 +68,7 @@ body {
   font-size: 1em;
   width: auto;
   margin: 20% auto;
+  max-width: 90%;
   font-weight: bolder;
   bottom: 10px;
   color: var(--colorSlate900);
@@ -80,6 +81,13 @@ body {
 
   .heading {  font-size: 1.2rem;}
   .subtext {  font-size: 1rem;}
+
+}
+
+@media (min-width: 420px) {
+
+  .heading {  font-size: 1.5rem;}
+  .subtext {  font-size: 1.2rem;}
 
 }
 
