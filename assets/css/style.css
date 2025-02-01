@@ -1,0 +1,57 @@
+:root {
+  --colorWhite: #ffffff;
+  --colorSlate300: hsl(212, 45%, 89%);
+  --colorSlate500: hsl(216, 15%, 48%);
+  --colorSlate900: hsl(218, 44%, 22%);
+}
+
+.outfit-WebFont {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 700;
+  font-style: normal;
+}
+
+@media (min-width: 375px) {
+  .qrCodeLoc {
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2em;
+    background-color: var(--colorWhite);
+  }
+
+  .qrCodeLoc img {
+    width: 280px;
+
+    border-radius: calc(2em - 10px);
+  }
+}
+
+body {
+  background-color: #d5e1ef;
+  margin:0;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  p {
+    font-size: 15px;
+  }
+  padding-bottom: 30px;
+}
+
+.attribution {
+  font-size: 1em;
+  width: 25%;
+  font-weight: bolder;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--colorSlate300);
+  color: var(--colorSlate900);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
